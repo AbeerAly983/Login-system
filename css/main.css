@@ -2,6 +2,11 @@
   color: #999 !important;
   font-size: 16px;
 }
+body {
+  font-family: "poppins", sans-serif;
+
+  color: #333;
+}
 .welcome {
   display: flex !important;
   align-items: center !important;
@@ -9,8 +14,6 @@
   height: 100vh;
 }
 .parent {
-  font-family: "poppins", sans-serif;
-  color: #333;
   display: flex;
   justify-content: center;
   align-items: center;
