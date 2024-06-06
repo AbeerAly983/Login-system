@@ -2,6 +2,12 @@
   color: #999 !important;
   font-size: 16px;
 }
+.welcome {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 100vh;
+}
 .parent {
   font-family: "poppins", sans-serif;
   color: #333;

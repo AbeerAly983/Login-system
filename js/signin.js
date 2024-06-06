@@ -7,6 +7,7 @@ let emailLoginAlert = document.querySelector(".email-login-alert");
 if (localStorage.getItem("userInfo") != null) {
   userLogin = JSON.parse(localStorage.getItem("userInfo"));
 }
+
 function login() {
   let userData = {
     email: emailInputLogin.value,
